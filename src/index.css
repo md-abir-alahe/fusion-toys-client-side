@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Boogaloo&family=Chewy&family=Fredoka:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Luckiest+Guy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Buttons */
+.btn-primary {
+    @apply btn btn-wide bg-secondary text-quaternary border-none hover:bg-primary 
+}
+.btn-secondary {
+    @apply btn btn-wide bg-primary text-quaternary border-none hover:bg-secondary
+}
+.btn-primary-sm {
+    @apply btn bg-secondary text-quaternary border-none hover:bg-primary hover:text-white
+}
